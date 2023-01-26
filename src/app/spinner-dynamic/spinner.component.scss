@@ -1,0 +1,16 @@
+.loading_text {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.spinner-panel-class {
+  display: inline-block;
+  text-align: center;
+}
+//there is a bug in material https://github.com/angular/components/issues/6071
+::ng-deep .spinner-back-drop-class {
+  height: 100vh;
+  background-color: #5454543b;
+}
